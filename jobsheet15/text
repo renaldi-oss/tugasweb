@@ -1,0 +1,13 @@
+<nav class="navbar navbar-light bg-light">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">
+                HALAMAN ADMIN
+              </a>
+              <div class="d-flex">
+                <span class="navbar-text" style="margin-right: 10px;">
+                    <?php echo "Selamat datang ".$_SESSION['username']."."?>
+                </span>
+                <a class="navbar-brand" href="">Log out</a>
+              </div>
+            </div>
+        </nav>
